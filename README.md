@@ -61,11 +61,3 @@ Creates a [`Buffer`](https://nodejs.org/api/buffer.html) object representing the
 - **maxWidth**: the max width of the resulting collage.
 - **mimeType**: optional, a string indicating the image format. Default value is `image/png`, but other posible values are `image/jpeg`, `raw`, `application/pdf` and `image/svg+xml`. See [Canvas#tobuffer](https://github.com/Automattic/node-canvas/blob/master/Readme.md#canvastobuffer) for more information.
 
-## Acknowledge
-
-Heavily inspired in the following projects:
-
-- [classdogo](https://github.com/classdojo) for [photo-collage](https://github.com/classdojo/photo-collage)
-    - Their API inspired this project API and used a modified version of their `getPhoto` function.
-- [neptunian](https://github.com/neptunian) for [react-photo-gallery](https://github.com/neptunian/react-photo-gallery)
-    - Used their row layout and column layout implementation. Added copyright in the used files.
