@@ -55,5 +55,4 @@ Creates a [`Buffer`](https://nodejs.org/api/buffer.html) object representing the
 
 - **sources**: source of the images you want to merge in a single collage. Each element can be a `Buffer` image or a `string` (relative path to an image _or_ a image URL).
 - **maxWidth**: the max width of the resulting collage.
-- **mimeType**: optional, a string indicating the image format. Default value is `image/png`, but other posible values are `image/jpeg`, `raw`, `application/pdf` and `image/svg+xml`. See [Canvas#tobuffer](https://github.com/Automattic/node-canvas/blob/master/Readme.md#canvastobuffer) for more information.
-
+- **mimeType**: optional, a string indicating the image format. Default value is `image/png`, but other posible values are `image/jpeg`, `raw`, `application/pdf` and `image/svg+xml`. 
